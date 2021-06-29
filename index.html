@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="cubic-demo">
+    <div class="nav-menu">
+      <ul>
+        <li>HOME</li>
+        <li>GALLERY</li>
+        <li>EXPLORE</li>
+        <li>IMMERSE</li>
+        <li>LOCATION</li>
+        <li>TEAM</li>
+      </ul>
+      <div id="wrapD3Cube">
+        <div id="D3Cube">
+          <div id="side1"></div>
+          <div id="side2"></div>
+          <div id="side3"></div>
+          <div id="side4"></div>
+          <div id="side5"></div>
+          <div id="side6"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $("#wrapD3Cube").click(() => {
+      $(".cubic-demo").addClass("active");
+    });
+  </script>
+</html>

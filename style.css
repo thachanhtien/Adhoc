@@ -5,14 +5,12 @@
 
 .cubic-demo {
   background: linear-gradient(33.7deg, #8f8f8f 7.72%, #676c7a 84.33%);
+  height: 100vh;
 }
 
 .cubic-demo .nav-menu {
   width: 100%;
   position: relative;
-  height: 100vh;
-  display: flex;
-  align-items: center;
 }
 
 .cubic-demo .nav-menu ul li {
@@ -91,15 +89,15 @@
 }
 
 .cubic-demo.show .nav-menu ul li:nth-child(4) {
-  left: 63%;
+  left: 60%;
 }
 
 .cubic-demo.show .nav-menu ul li:nth-child(5) {
-  left: 73%;
+  left: 70%;
 }
 
 .cubic-demo.show .nav-menu ul li:nth-child(6) {
-  left: 83%;
+  left: 80%;
 }
 
 @keyframes menu1 {

@@ -13,12 +13,12 @@
     <!-- <link rel="shortcut icon" href="assets/images/favicon.ico" /> -->
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body class="cubic-demo">
+  <body class="cubic-demo hide first-show">
     <div class="nav-menu">
       <ul>
         <li class="active">
           <a href="#">
-            <img src="house.svg" alt="icon" />
+            <span class="menu-img"><img src="icon.png" alt="icon" /> </span>
           </a>
         </li>
         <li>
@@ -51,8 +51,10 @@
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-    $("#ModelCube").click(() => {
-      $(".cubic-demo").toggleClass("show");
+    $("#ModelCube").click((e) => {
+      $(".cubic-demo").toggleClass("show hide");
+      $(".cubic-demo").removeClass("first-show");
+      e.preventDefault();
     });
   </script>
 </html>

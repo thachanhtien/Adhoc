@@ -223,6 +223,10 @@ a:hover {
   animation: none;
 }
 
+.cubic-demo.first-show ul {
+  opacity: 0;
+}
+
 @keyframes cubeRotation {
   0% {
     transform: rotateX(-22deg) rotateY(-45deg) translateY(0);

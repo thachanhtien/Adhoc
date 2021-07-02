@@ -76,17 +76,17 @@ a:hover {
 
 .cubic-demo .nav-menu ul li:nth-child(3),
 .cubic-demo .nav-menu ul li:nth-child(4) {
-  transition: 1.4s 0.3s ease-in-out;
+  transition: 1s 0.3s ease-in-out;
 }
 
 .cubic-demo .nav-menu ul li:nth-child(2),
 .cubic-demo .nav-menu ul li:nth-child(5) {
-  transition: 1.3s 0.3s ease-in-out;
+  transition: 0.9s 0.3s ease-in-out;
 }
 
 .cubic-demo .nav-menu ul li:nth-child(1),
 .cubic-demo .nav-menu ul li:nth-child(6) {
-  transition: 1.2s 0.3s ease-in-out;
+  transition: 0.8s 0.3s ease-in-out;
 }
 
 .cubic-demo.show .nav-menu ul li:nth-child(1) {
@@ -206,7 +206,7 @@ a:hover {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
   -webkit-transition: all 1s ease-in-out;
-  transition: all 1.2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .cubic-demo.show #ModelCube {
